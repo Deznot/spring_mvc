@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ffbd433-b082-45e9-b196-96097bb7cc7e" name="Changes" comment="feat: add ask_emp-details-view">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details.jsp" afterDir="false" />
+    <list default="true" id="3ffbd433-b082-45e9-b196-96097bb7cc7e" name="Changes" comment="feat: add controller to MyController">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/mvc/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/mvc/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/myView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/myView.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669969674740</updated>
       <workItem from="1669969676430" duration="2506000" />
-      <workItem from="1669972214411" duration="5502000" />
+      <workItem from="1669972214411" duration="5999000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1669970215811</created>
@@ -183,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669981768377</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add view show-emp-details">
+      <created>1669981972477</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669981972477</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add controller to MyController">
+      <created>1669982004647</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669982004647</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +221,8 @@
     <MESSAGE value="feat: add configure for project" />
     <MESSAGE value="feat: add MyController" />
     <MESSAGE value="feat: add ask_emp-details-view" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add ask_emp-details-view" />
+    <MESSAGE value="feat: add view show-emp-details" />
+    <MESSAGE value="feat: add controller to MyController" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add controller to MyController" />
   </component>
 </project>

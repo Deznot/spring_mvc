@@ -15,6 +15,6 @@ public class MyController {
     }
     @RequestMapping("/showDetails")
     public String showEmpDetails() {
-        return "show-emp-details";
+        return "show-emp-details-view";
     }
 }
