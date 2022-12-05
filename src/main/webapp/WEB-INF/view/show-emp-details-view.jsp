@@ -4,7 +4,8 @@
     <title>show-emp-details</title>
 </head>
 <body>
-    <h2>Your sign in as: ${param.employeeName}</h2>
+<%--    <h2>Your sign in as: ${param.employeeName}</h2>--%>
+    Your name: ${nameAttribute}
     <br>
 </body>
 </html>
