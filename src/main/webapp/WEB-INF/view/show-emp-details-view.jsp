@@ -5,7 +5,11 @@
 </head>
 <body>
 <%--    <h2>Your sign in as: ${param.employeeName}</h2>--%>
-    Your name: ${nameAttribute}
+    Your name: ${employee.name}
+    <br>
+    Your surname: ${employee.surname}
+    <br>
+    Your salary: ${employee.salary}
     <br>
 </body>
 </html>
