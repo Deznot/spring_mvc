@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ffbd433-b082-45e9-b196-96097bb7cc7e" name="Changes" comment="feat: add method for change input param to form and show it to view">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/mvc/Employee.java" afterDir="false" />
+    <list default="true" id="3ffbd433-b082-45e9-b196-96097bb7cc7e" name="Changes" comment="feat: work with spring-form radiobutton">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/mvc/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/mvc/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/mvc/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/mvc/MyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" afterDir="false" />
@@ -157,7 +157,8 @@
       <workItem from="1669969676430" duration="2506000" />
       <workItem from="1669972214411" duration="6237000" />
       <workItem from="1670220021843" duration="10697000" />
-      <workItem from="1670240764394" duration="4400000" />
+      <workItem from="1670240764394" duration="5770000" />
+      <workItem from="1670304422569" duration="7993000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1669970215811</created>
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670243256998</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: work with spring-form input">
+      <created>1670245246010</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670245246010</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +250,8 @@
     <MESSAGE value="feat: add controller to MyController" />
     <MESSAGE value="ref: change refactor file name and add link to myView" />
     <MESSAGE value="feat: add method for change input param to form and show it to view" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add method for change input param to form and show it to view" />
+    <MESSAGE value="feat: work with spring-form input" />
+    <MESSAGE value="feat: work with spring-form radiobutton" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: work with spring-form radiobutton" />
   </component>
 </project>

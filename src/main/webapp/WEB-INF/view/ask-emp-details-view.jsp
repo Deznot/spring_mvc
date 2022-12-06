@@ -15,6 +15,13 @@
         <br><br>
         Salary <form:input path="salary"></form:input>
         <br><br>
+        Department <form:select path="department">
+            <form:options items="${employee.departments}"></form:options>
+        </form:select>
+        <br><br>
+        What car do you want?
+        <form:radiobuttons path="carBrand" items="${employee.carBrands}"></form:radiobuttons>
+        <br><br>
         <input type="submit" value="Send">
     </form:form>
 <%--    HTML--%>

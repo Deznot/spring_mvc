@@ -21,7 +21,7 @@ public class MyController {
 //        emp.setName("ivan");
 //        emp.setSurname("Petrov");
 //        emp.setSalary(500);
-        model.addAttribute("employee",new Employee());
+        model.addAttribute("employee", new Employee());
         return "ask-emp-details-view";
     }
 
