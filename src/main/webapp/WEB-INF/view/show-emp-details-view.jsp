@@ -12,10 +12,13 @@
     <br>
     Your salary: ${employee.salary}
     <br>
+    Your Phone Number: ${employee.phoneNumber}
+    <br>
+    You Email: ${employee.email}
+    <br>
     Your department: ${employee.department}
     <br>
     You want this car: ${employee.carBrand}
-
     <br>
     <ul>
         <c:forEach var="lang" items="${employee.languages}">

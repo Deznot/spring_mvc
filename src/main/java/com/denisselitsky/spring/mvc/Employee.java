@@ -1,11 +1,22 @@
 package com.denisselitsky.spring.mvc;
 
+import com.denisselitsky.spring.mvc.validation.CheckEmail;
+import jakarta.validation.constraints.*;
+
 import java.util.*;
 
 public class Employee {
+    @Size(min = 2, max = 14, message = "name must be min 2 symbols")
     private String name;
+    @NotBlank(message = "surname is required field")
     private String surname;
+    @Min(value = 500, message = "Must be greater than 499")
+    @Max(value = 1000, message = "Must be less than 1001")
     private int salary;
+    @Pattern(regexp = "\\d{3}-\\d[2]-\\d{2}", message = "please use pattern xxx-xx-xx")
+    private String phoneNumber;
+    @CheckEmail(value = "abc.com", message = "email must ends with abc.com")
+    private String email;
     private String department;
     private Map<String, String> departments;
     private String carBrand;
@@ -28,6 +39,14 @@ public class Employee {
         languageMap.put("English","EN");
         languageMap.put("Dutch","DE");
         languageMap.put("French","FR");
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
     public Map<String, String> getLanguageMap() {
@@ -66,6 +85,13 @@ public class Employee {
         return department;
     }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
     public void setLanguageMap(Map<String, String> languageMap) {
         this.languageMap = languageMap;
     }

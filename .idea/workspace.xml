@@ -9,13 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ffbd433-b082-45e9-b196-96097bb7cc7e" name="Changes" comment="feat: work with spring-form radiobutton">
+    <list default="true" id="3ffbd433-b082-45e9-b196-96097bb7cc7e" name="Changes" comment="feat: add checkbox and fix jstl">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/mvc/validation/CheckEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/mvc/validation/CheckEmailValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/mvc/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/mvc/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/mvc/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/mvc/MyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +162,7 @@
       <workItem from="1670220021843" duration="10697000" />
       <workItem from="1670240764394" duration="5770000" />
       <workItem from="1670304422569" duration="11935000" />
-      <workItem from="1670394362851" duration="7203000" />
+      <workItem from="1670394362851" duration="13049000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1669970215811</created>
@@ -232,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670329688581</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: add checkbox and fix jstl">
+      <created>1670412040795</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670412040795</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +270,7 @@
     <MESSAGE value="feat: add method for change input param to form and show it to view" />
     <MESSAGE value="feat: work with spring-form input" />
     <MESSAGE value="feat: work with spring-form radiobutton" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: work with spring-form radiobutton" />
+    <MESSAGE value="feat: add checkbox and fix jstl" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add checkbox and fix jstl" />
   </component>
 </project>

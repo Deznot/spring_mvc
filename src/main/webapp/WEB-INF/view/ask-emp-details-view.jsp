@@ -5,15 +5,27 @@
     <title>ask-emp-details</title>
 </head>
 <body>
+<style>
+    .ErrorForm{background-color: salmon}
+</style>
     <h2>ask-emp-details</h2>
     <br>
 
     <form:form action="showDetails" modelAttribute="employee">
         Name <form:input path="name"></form:input>
+        <form:errors path="name" cssClass="ErrorForm"></form:errors>
         <br><br>
         Surname <form:input path="surname"></form:input>
+        <form:errors path="surname" cssClass="ErrorForm"></form:errors>
         <br><br>
         Salary <form:input path="salary"></form:input>
+        <form:errors path="salary" cssClass="ErrorForm"></form:errors>
+        <br><br>
+        Phone Number <form:input path="phoneNumber"></form:input>
+        <form:errors path="phoneNumber" cssClass="ErrorForm"></form:errors>
+        <br><br>
+        Email: <form:input path="email"></form:input>
+        <form:errors path="email" cssClass="ErrorForm"></form:errors>
         <br><br>
         Department <form:select path="department">
             <form:options items="${employee.departments}"></form:options>
@@ -27,6 +39,7 @@
         <br><br>
         <input type="submit" value="Send">
     </form:form>
+
 <%--    HTML--%>
 <%--    <form action="showDetails" method="post">--%>
 <%--        <label>--%>
