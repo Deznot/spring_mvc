@@ -1,7 +1,6 @@
 package com.denisselitsky.spring.mvc;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Employee {
     private String name;
@@ -11,6 +10,8 @@ public class Employee {
     private Map<String, String> departments;
     private String carBrand;
     private Map<String,String> carBrands;
+    private String[] languages;
+    private Map<String,String> languageMap;
 
     public Employee() {
         departments = new HashMap<String, String>();
@@ -22,14 +23,23 @@ public class Employee {
         carBrands.put("BMV","BMV");
         carBrands.put("Audi","Audi");
         carBrands.put("Volvo","Volvo");
+
+        languageMap = new HashMap<String,String>();
+        languageMap.put("English","EN");
+        languageMap.put("Dutch","DE");
+        languageMap.put("French","FR");
+    }
+
+    public Map<String, String> getLanguageMap() {
+        return languageMap;
+    }
+
+    public String[] getLanguages() {
+        return languages;
     }
 
     public Map<String, String> getCarBrands() {
         return carBrands;
-    }
-
-    public void setCarBrands(Map<String, String> carBrands) {
-        this.carBrands = carBrands;
     }
 
     public String getCarBrand() {
@@ -56,6 +66,16 @@ public class Employee {
         return department;
     }
 
+    public void setLanguageMap(Map<String, String> languageMap) {
+        this.languageMap = languageMap;
+    }
+
+    public void setLanguages(String[] languages) {
+        this.languages = languages;
+    }
+    public void setCarBrands(Map<String, String> carBrands) {
+        this.carBrands = carBrands;
+    }
     public void setCarBrand(String carBrand) {
         this.carBrand = carBrand;
     }
